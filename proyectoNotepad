@@ -1,0 +1,44 @@
+<NotepadPlus>
+    <Project name="MiPaginaFluxbox">
+        <Folder name="css">
+            <Folder name="fontawesome">
+                <Folder name="css">
+                    <File name="css\fontawesome\css\all.css" />
+                    <File name="css\fontawesome\css\all.min.css" />
+                    <File name="css\fontawesome\css\brands.css" />
+                    <File name="css\fontawesome\css\brands.min.css" />
+                    <File name="css\fontawesome\css\fontawesome.css" />
+                    <File name="css\fontawesome\css\fontawesome.min.css" />
+                    <File name="css\fontawesome\css\regular.css" />
+                    <File name="css\fontawesome\css\regular.min.css" />
+                    <File name="css\fontawesome\css\solid.css" />
+                    <File name="css\fontawesome\css\solid.min.css" />
+                    <File name="css\fontawesome\css\svg-with-js.css" />
+                    <File name="css\fontawesome\css\svg-with-js.min.css" />
+                    <File name="css\fontawesome\css\v4-shims.css" />
+                    <File name="css\fontawesome\css\v4-shims.min.css" />
+                </Folder>
+                <Folder name="webfonts">
+                    <File name="css\fontawesome\webfonts\fa-brands-400.eot" />
+                    <File name="css\fontawesome\webfonts\fa-brands-400.svg" />
+                    <File name="css\fontawesome\webfonts\fa-brands-400.ttf" />
+                    <File name="css\fontawesome\webfonts\fa-brands-400.woff" />
+                    <File name="css\fontawesome\webfonts\fa-brands-400.woff2" />
+                    <File name="css\fontawesome\webfonts\fa-regular-400.eot" />
+                    <File name="css\fontawesome\webfonts\fa-regular-400.svg" />
+                    <File name="css\fontawesome\webfonts\fa-regular-400.ttf" />
+                    <File name="css\fontawesome\webfonts\fa-regular-400.woff" />
+                    <File name="css\fontawesome\webfonts\fa-regular-400.woff2" />
+                    <File name="css\fontawesome\webfonts\fa-solid-900.eot" />
+                    <File name="css\fontawesome\webfonts\fa-solid-900.svg" />
+                    <File name="css\fontawesome\webfonts\fa-solid-900.ttf" />
+                    <File name="css\fontawesome\webfonts\fa-solid-900.woff" />
+                    <File name="css\fontawesome\webfonts\fa-solid-900.woff2" />
+                </Folder>
+            </Folder>
+            <File name="css\estilo.css" />
+        </Folder>
+        <Folder name="imagenes" />
+        <File name="index.html" />
+    </Project>
+</NotepadPlus>
