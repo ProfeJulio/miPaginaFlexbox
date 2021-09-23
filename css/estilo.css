@@ -5,7 +5,7 @@
 }
 
 body{		
-	font-family: 'Lora', serif;
+	font-family: 'Lora', serif;;
 	
 	/* font-family: 'Lora', serif; */
 	/* font-family: 'Montserrat', sans-serif; */	
@@ -15,7 +15,10 @@ body{
   flex-flow: column nowrap;
 }
   .header{
-    background: #000;
+    background: url(../imagenes/bg2.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
     display: flex;
     flex-flow: column nowrap;
   }
@@ -42,6 +45,11 @@ body{
         flex:1 1 auto;
         height: 30px;
       }
+	  i{
+		margin: 0px;
+		padding: 0px;
+		/* box-sizing: border-box; */
+	  }
     .texto-principal{
       background: #f07b3f;
     }
