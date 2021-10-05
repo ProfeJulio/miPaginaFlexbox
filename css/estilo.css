@@ -1,14 +1,15 @@
 *{
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   box-sizing: border-box;
 }
-
-body{		
-	font-family: 'Lora', serif;;
-	
+body{
+	font-family: 'Montserrat', sans-serif;
 	/* font-family: 'Lora', serif; */
-	/* font-family: 'Montserrat', sans-serif; */	
+	/* font-family: 'Montserrat', sans-serif; */
+}
+a{
+  text-decoration: none;
 }
 .padre{
   display: flex;
@@ -16,40 +17,62 @@ body{
 }
   .header{
     background: url(../imagenes/bg2.jpg);
-	background-position: center;
-	background-attachment: contain;
-	background-size: cover;
+  	background-position: center;
+  	background-attachment: contain;
+  	background-size: cover;
     display: flex;
     flex-flow: column nowrap;
   }
     .menu{
-      background: #2d4059;
+      background: rgba(0,0,0,.1);
       display: flex;
       flex-flow: row nowrap;
-      height: 100px;
+      /*height: 60px;*/
       align-items: center;
-      
+      border-bottom: 1px solid rgba(255,255,255,.5);
     }
+/*
+Propiedad de hijo
+flex: propiedad abreviada para los flex-grow, flex-shrinky flex-basis.
+  flex-grow: cuánto crecerá un elemento flexible en relación con el resto de los elementos flexibles. (valor entro positivo)
+  flex-shrink: cuánto se encogerá un elemento flexible en relación con el resto de los elementos flexibles. (valor entro positivo)
+  La flex-basis: la longitud inicial (en px) de un elemento flexible.
+*/
       .logo{
-        background: #ea5455;
         flex:1 1 auto;
-        height: 30px;
       }
+        .logo a{
+          color: #fff;
+          font-size: 30px;
+        }
+        .logo a:hover{
+          color:#343434;
+        }
       .nav{
-        background: #ea5455;
-        flex:1 1 auto;
-        height: 30px;
+        flex:5 1 auto;
       }
+        .nav a{
+          color: #fff;
+          font-size: 11px;
+          text-transform: uppercase;
+          padding: 0 10px;
+          letter-spacing: 2px;
+        }
+        .nav a:hover{
+          color: #343434;
+        }
       .social{
-        background: #ea5455;
         flex:1 1 auto;
-        height: 30px;
+        display: flex;
       }
-	  i{
-		margin: 0px;
-		padding: 0px;
-		/* box-sizing: border-box; */
-	  }
+        .social a{
+          font-size: 18px;
+          color: #fff;
+          padding: 0 5px;
+        }
+        .social a:hover{
+          color: #343434;
+        }
     .texto-principal{
       background: #f07b3f;
     }
